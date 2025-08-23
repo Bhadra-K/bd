@@ -10,7 +10,7 @@ else:
     print("Item not found")
 list.remove("mango")
 print(list)
-#or print(list.remove("mango"),list)
+# or print(list.remove("mango"),list)
 #loops
 while True:
     print("\nMENU","\n1.Add","\n2.View","\n3.Exit")
