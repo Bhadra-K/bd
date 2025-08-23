@@ -31,6 +31,7 @@ q=np.random.randint(0,100,size=5)
 print(q)
 z=np.random.randint(10,21,size=(3,3))
 print(z)
-# generate 6-digit otp 
+
+# generate 6-digit otp example
 otp=np.random.randint(000000,1000000)
 print(otp)
