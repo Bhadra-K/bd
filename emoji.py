@@ -24,7 +24,7 @@
 
 #OR
 
-emoji={'happy':'😁','sad':'😢','angry':'😡','pizza':'🍕'}
+emoji={'happy':'😁','sad':'😢','angry':'😡','pizza':'🍕','love':'❤️ '}
 n=input("Enter message:")
 for a in emoji:
     if a in n:
