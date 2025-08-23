@@ -1,4 +1,4 @@
-cart=[]
+cart=[] 
 #add item
 n = int(input("Number of items to add: "))
 for i in range(n):
