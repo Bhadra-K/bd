@@ -1,4 +1,4 @@
-student={}
+student={} 
 n=int(input("No of students :"))
 for i in range(n):
     rollno=input("Enter rollno:")
