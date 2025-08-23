@@ -30,10 +30,7 @@ list=['apple','mango','lemon','berry','kiwi']
 # for i,j in enumerate(list,start=1):   #by default start=0
 #     print(i,j)                        #prints value with index
 
-
-#  
-# i
-# .................................................................................tem=input("Enter any item from list to unlock discount:")
+# item=input("Enter any item from list to unlock discount:")
 # if item=='apple':
 #     price=50
 #     sale=40
