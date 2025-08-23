@@ -18,3 +18,7 @@ print(df.tail(2))
 data={'Name':['Alice','Bob','Jack',None],'Age':[25,30,None,22],'Grade':['A','B','C','A']}
 df=pd.DataFrame(data)
 df.info()
+#df.describe
+print(df.describe())
+#df.columns
+print(df.columns)
