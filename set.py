@@ -1,4 +1,4 @@
-usera={'Inception','Matrix','Avatar','Titanic'}
+usera={'Inception','Matrix','Avatar','Titanic'} 
 userb={'Inception','Matrix','Jurassic Park','Avengers'}
 commonmovies=usera & userb
 print("Movies both have watched:",commonmovies)
