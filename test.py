@@ -16,3 +16,4 @@ y=np.random.rand(50)
 plt.scatter(x,y,color="purple",marker="x")
 plt.title("Scatter plot")
 plt.show()
+
