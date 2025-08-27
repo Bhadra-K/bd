@@ -41,5 +41,6 @@ df=pd.DataFrame(data)
 print(df.isnull())
 #df.dropna - null value row/col remove
 print(df.dropna())
+print(df.fillna(33))
 df['Age'].fillna(df['Age'].mean(),inplace=True)
 print(df)
