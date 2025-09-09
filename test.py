@@ -16,7 +16,6 @@ y=np.random.rand(50)
 plt.scatter(x,y,color="purple",marker="x")
 plt.title("Scatter plot")
 plt.show()
-<<<<<<< HEAD
 #pltbar()=vertical bar plot
 categories=['A','B','C']
 values=[3,7,5]
