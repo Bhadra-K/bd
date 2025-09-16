@@ -11,7 +11,7 @@ print(data.isnull().sum())
 #encoding-labelencoder
 data['Gender'] = data['Gender'].map({'Male': 1, 'Female': 0})   #or   le = LabelEncoder()  (nextline)  data['Gender'] = le.fit_transform(data['Gender'])
 print(data.head())
-#access only annual income and spending score columns-index 3 & 4
+#access only annual income and spending score columns-index 3 & 4 for finding customer groups(weekly shoppers,budget friendly shoppers etc)
 x=data.iloc[:,[3,4]].values
 print(x)
 #clustering 
