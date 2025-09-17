@@ -14,13 +14,13 @@ x=['pclass','sex','age','sibsp','parch','fare','embarked','who']
 y=['survived']
 data=data[x+y]
 #handle missing values
-data['age']=data['age'].fillna(data['age'].median)
+data['age']=data['age'].fillna(data['age'].median())
 data['embarked']=data['embarked'].fillna(data['embarked'].mode()[0])
 #encoding
 for col in ['sex','embarked','who']:
     data[col]=LabelEncoder().fit_transform(data[col])
 #split train and test sets
-x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.5,random_state=42)
+x_train,x_test,y_train,y_test=train_test_split(data[x],data[y],test_size=0.5,random_state=42)
 #model
 model=LogisticRegression()
 model.fit(x_train,y_train)
